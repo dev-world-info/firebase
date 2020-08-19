@@ -7,19 +7,6 @@ function App() {
 
   const ref = firebase.firestore().collection("YOUR_COLLECTIONS_NAME");
 
-  //REALTIME FUNCTION
-  // function getSchools() {
-  //   setLoading(true);
-  //   ref.onSnapshot((querySnapshot) => {
-  //     const items = [];
-  //     querySnapshot.forEach((doc) => {
-  //       items.push(doc.data());
-  //     });
-  //     setSchools(items);
-  //     setLoading(false);
-  //   });
-  // }
-
   // SINGLE GET FUNCTION
   // You might want to add a .catch() method for errors
   function getSchools2() {
